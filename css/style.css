@@ -68,8 +68,8 @@ nav a:hover{
 }
 
 .g-30{
-	width: 30%;
-	float: left;
+	width: 30%; /*change the width*/
+	float: right;
 }
 
 .g-70{
@@ -118,14 +118,16 @@ nav a:hover{
 
 #line {
 	height:0.5px;
-	background-color:#03f;
-  margin-top:-200px; /* I can't position this three pixels under text */
+	background-color:black;
+	position: static;
+  margin-top: -170px ;
+  margin-right: 0px;
 
 }
 
 .one{
 	position: absolute;
-	top:110px;
+	top:5.7%;
 	right:420px;
 	color:white;
   text-decoration: none;
@@ -137,7 +139,7 @@ nav a:hover{
 
 .two{
 	position: absolute;
-	top:110px;
+	top:5.7%;
 	right:220px;
 	color:white;
 	border: 1px solid black;
@@ -148,7 +150,7 @@ nav a:hover{
 
 .three{
 	position: absolute;
-	top:110px;
+	top:5.7%;
 	right:70px;
 	color:white;
 	border: 1px solid black;
@@ -158,23 +160,49 @@ nav a:hover{
 }
 
 .Intro{
-	font-size: 70px;
-	position: relative;
-	left:90px;
-	top:20px;
+	font-size:900%;
+	/*position: relative;
+	left:center;
+	margin-top:10%;
+	left: 8%;*/
+	padding: 10%;
+
+
 }
 
 .Intro1{
 	font-size: 60px;
-	position: relative;
+	/*position: relative;
 	left:100px;
-	top:-60px;
+	top:50%;*/
+	padding: 1px;
 }
 
 .intro2{
 	font-size: 20px;
-width: 500px;
+    width: 500px;
 	position: relative;
 	left:100px;
-	top:160px;
+	top:120px;
 }
+
+.Layer_1 {
+  background-image: url("Layer 1.png");
+  position: absolute;
+  left: 10%;
+  top: 100%;
+  width: 2199px;
+  height: 2910px;
+  z-index: 2;
+}
+
+.camera {
+	margin-top: 40%;
+	margin-bottom: 10%;
+}
+
+.p{
+	padding: 100px;
+	padding-bottom: 100px;
+}
+
