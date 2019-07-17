@@ -189,10 +189,10 @@ nav a:hover{
 .Layer_1 {
   background-image: url("Layer 1.png");
   position: absolute;
-  left: 10%;
-  top: 100%;
-  width: 2199px;
-  height: 2910px;
+ right: 5%;
+  top: 20%;
+
+  
   z-index: 2;
 }
 
