@@ -125,6 +125,17 @@ nav a:hover{
 
 }
 
+.home{
+	position: absolute;
+	top:5.7%;
+	right:620px;
+	color:white;
+  text-decoration: none;
+	border: 1px solid white;
+   border-radius: 10px;
+	 background: black;
+}
+
 .one{
 	position: absolute;
 	top:5.7%;
