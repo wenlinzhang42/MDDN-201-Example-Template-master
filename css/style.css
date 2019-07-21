@@ -119,74 +119,92 @@ nav a:hover{
 #line {
 	height:0.5px;
 	background-color:black;
-	position: static;
-  margin-top: -170px ;
-  margin-right: 0px;
+	position: absolute;
+  top:13% ;
+  right: 0%;
 
 }
 
 .home{
 	position: absolute;
 	top:5.7%;
-	right:620px;
+	right:33%;
 	color:white;
-  text-decoration: none;
-	border: 1px solid white;
-   border-radius: 10px;
-	 background: black;
+    text-decoration: none;
+	border-radius: 10px;
+    background: black;
+    width: 7%;
+    height: 5%;  
+    text-align: center;
+    font-family: Comic Sans MS;
 }
 
 .one{
-	position: absolute;
+
+    position: absolute;
 	top:5.7%;
-	right:420px;
+	right:25%;
 	color:white;
-  text-decoration: none;
-	border: 1px solid white;
-   border-radius: 10px;
-	 background: black;
+    text-decoration: none;
+	border-radius: 10px;
+    background: black;
+    width: 7%;
+    height: 5%;  
+    line-height: normal;
+    text-align: center;
+    padding-top: 0.5%;
+    font-family: Comic Sans MS;
 
 }
 
 .two{
 	position: absolute;
 	top:5.7%;
-	right:220px;
+	right:15%;
 	color:white;
-	border: 1px solid white;
 	 border-radius: 10px;
-	 background: black;
+    background: black;
+    padding-top: 1%;
+    padding-left: 0.1%;
+    width: 9%;
+    height: 5%;  
+     line-height: normal;
+    text-align: center;
+    padding-top: 0.5%;
+    font-family: Comic Sans MS;
 
 }
 
 .three{
 	position: absolute;
 	top:5.7%;
-	right:70px;
+	right:5%;
 	color:white;
-	border: 1px solid white;
 	 border-radius: 10px;
-	 background: black;
-
+    background: black;
+    padding-top: 1%;
+    padding-left: 0.1%;
+    width: 9%;
+    height: 5%;  
+    line-height: normal;
+    text-align: center;
+    padding-top: 0.5%;
+    font-family: Comic Sans MS;
 }
 
 .Intro{
 	font-size:900%;
-	/*position: relative;
-	left:center;
-	margin-top:10%;
-	left: 8%;*/
-	padding: 10%;
-
-
+	position: absolute;
+    top:30%;
+    right: 50%
 }
 
 .Intro1{
 	font-size: 60px;
-	/*position: relative;
-	left:100px;
-	top:50%;*/
-	padding: 1px;
+	position: absolute;
+	top:50%;
+    right: 50%;
+	
 }
 
 .intro2{
@@ -198,23 +216,22 @@ nav a:hover{
 }
 
 .Layer_1 {
-  background-image: url("Layer 1.png");
+  background-image: url("Layer_1.png");
   position: absolute;
  right: 5%;
   top: 20%;
-
-  
   z-index: 2;
 }
 
-.camera {
-	margin-top: 40%;
-	margin-bottom: 10%;
-}
 
 .p{
 	padding: 100px;
 	padding-bottom: 100px;
+}
+
+.home:hover{
+	 background-color: rgba(0, 0, 0, 0.1);
+	 color: black;
 }
 
 .one:hover{
@@ -234,3 +251,41 @@ nav a:hover{
 }
 
 
+.Layer_3 {
+  background-image: url("Layer_3.png");
+  position: absolute;
+  left: 15%;
+  top: -8%;
+  width: 500px;
+  height: 300px;
+ /* z-index: 2;*/
+}
+
+.Layer_4 {
+  background-image: url("Layer_3.png");
+  position: absolute;
+  left: 30%;
+  top: -8%;
+  width: 500px;
+  height: 300px;
+ /* z-index: 2;*/
+}
+
+.ROUTER {
+  background-image: url("ROUTER.png");
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  width: 15%;
+  
+ /* z-index: 2;*/
+}
+
+/*index3*/
+
+.t1{
+	position: absolute;
+	top:30%;
+	left: 50%;
+    width: 20%;
+}
